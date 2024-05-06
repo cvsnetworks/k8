@@ -1,0 +1,2 @@
+kubectl create deployment video-chat --image=kubesultan/videochat:v1
+kubectl expose deployment video-chat --type=NodePort --port=3000
